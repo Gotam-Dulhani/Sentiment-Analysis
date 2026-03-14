@@ -8,25 +8,25 @@
 
 > A **full-stack Sentiment Analysis Web Application** with an interactive dashboard that classifies text as **Positive**, **Negative**, or **Neutral** in real-time.
 
-🌐 **Explore the docs »**
-🚀 **[View Demo](#)** · 🐛 **Report Bug** · 🌟 **Request Feature**
+🌐 **[Explore the docs »](#)**
+🚀 **[View Demo](#)** · 🐛 **[Report Bug](#)** · 🌟 **[Request Feature](#)**
 
 ---
 
 ## 📌 Table of Contents
 
-* [About The Project](#about-the-project)
-* [Key Features](#key-features)
-* [Built With](#built-with)
-* [Getting Started](#getting-started)
-* [Installation](#installation)
-* [Usage](#usage)
-* [System Architecture](#system-architecture)
-* [Contributing](#contributing)
-* [Contributors](#contributors)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgments](#acknowledgments)
+* [About The Project](#-about-the-project)
+* [Key Features](#-key-features)
+* [Built With](#-built-with)
+* [Getting Started](#-getting-started)
+* [Installation](#-installation)
+* [Usage](#-usage)
+* [System Architecture](#-system-architecture)
+* [Contributing](#-contributing)
+* [Contributors](#-contributors)
+* [License](#-license)
+* [Contact](#-contact)
+* [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -36,9 +36,9 @@ The **Sentiment Analysis Web Application** allows users to analyze the emotional
 
 Users can paste **reviews, feedback, or social media posts** and instantly get:
 
-* Sentiment category
-* Compound polarity score
-* Visual distribution via interactive charts
+* ✅ Sentiment category
+* 📊 Compound polarity score
+* 📈 Visual distribution via interactive charts
 
 **Technologies showcased in this project:**
 
@@ -64,21 +64,24 @@ Users can paste **reviews, feedback, or social media posts** and instantly get:
 
 ### Backend
 
-* Python 3.8+
-* FastAPI
-* NLTK (VADER Sentiment Analyzer)
-* Uvicorn
-* Pydantic
+| Technology | Purpose |
+|---|---|
+| Python 3.8+ | Core language |
+| FastAPI | REST API framework |
+| NLTK (VADER) | Sentiment analysis |
+| Uvicorn | ASGI server |
+| Pydantic | Data validation |
 
 ### Frontend
 
-* React
-* Vite
-* Axios
-* Recharts
-* Framer Motion
-* Lucide React Icons
-* Custom CSS
+| Technology | Purpose |
+|---|---|
+| React | UI framework |
+| Vite | Build tool |
+| Axios | HTTP client |
+| Recharts | Data visualization |
+| Framer Motion | Animations |
+| Lucide React | Icons |
 
 ---
 
@@ -109,7 +112,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend runs at: `http://127.0.0.1:8000`
+> Backend runs at: `http://127.0.0.1:8000`
 
 ### Frontend Setup
 
@@ -119,7 +122,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs at: `http://localhost:5173`
+> Frontend runs at: `http://localhost:5173`
 
 ---
 
@@ -132,18 +135,18 @@ Frontend runs at: `http://localhost:5173`
 
 **Example Input:**
 
-```text
+```
 This product is amazing! I love the quality and the design.
 ```
 
 **Example Output:**
 
-```text
-Sentiment: Positive
-Compound Score: 0.82
-Positive: 0.78
-Neutral: 0.22
-Negative: 0.00
+```
+Sentiment:       Positive ✅
+Compound Score:  0.82
+Positive:        0.78
+Neutral:         0.22
+Negative:        0.00
 ```
 
 ---
@@ -172,10 +175,10 @@ React Dashboard + Charts
 ### Sentiment Classification Logic
 
 | Compound Score | Sentiment |
-| -------------- | --------- |
-| ≥ 0.05         | Positive  |
-| ≤ -0.05        | Negative  |
-| -0.05 to 0.05  | Neutral   |
+|---|---|
+| ≥ 0.05 | 🟢 Positive |
+| ≤ -0.05 | 🔴 Negative |
+| -0.05 to 0.05 | 🟡 Neutral |
 
 ---
 
@@ -220,15 +223,15 @@ Distributed under the **MIT License**. See `LICENSE` for details.
 
 ## 📫 Contact
 
-Gotam Dulhani
+**Gotam Dulhani**
 GitHub: [https://github.com/Gotam-Dulhani/Sentiment-Analysis](https://github.com/Gotam-Dulhani/Sentiment-Analysis)
 
 ---
 
 ## 🙏 Acknowledgments
 
-* NLTK Natural Language Toolkit
-* FastAPI Documentation
-* React Documentation
-* Recharts Visualization Library
-* Open Source Community
+* [NLTK Natural Language Toolkit](https://www.nltk.org/)
+* [FastAPI Documentation](https://fastapi.tiangolo.com/)
+* [React Documentation](https://react.dev/)
+* [Recharts Visualization Library](https://recharts.org/)
+* Open Source Community ❤️
