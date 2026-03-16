@@ -8,8 +8,6 @@
 
 > A **full-stack Sentiment Analysis Web Application** with an interactive dashboard that classifies text as **Positive**, **Negative**, or **Neutral** in real-time.
 
-🌐 **[Explore the docs »](#)**
-🚀 **[View Demo](#)** · 🐛 **[Report Bug](#)** · 🌟 **[Request Feature](#)**
 
 ---
 
