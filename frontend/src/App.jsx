@@ -135,6 +135,12 @@ function App() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <footer className="footer">
+        <div className="divider"></div>
+        <p className="footer-text">Built with ❤️ using FastAPI, NLTK & VADER</p>
+        <p className="footer-subtext">Made by Gotam Dulhani</p>
+      </footer>
     </div>
   )
 }
